@@ -1,0 +1,62 @@
+#Sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid black;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px blue;
+    box-shadow: 1px 1px 38px purple;
+    animation-name: Godspeed;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes Godspeed {
+
+  from {box-shadow: 1px 1px 38px blue;}
+  to {box-shadow: 1px 1px 38px purple;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
+
+body{
+  background: lime;
+}
+
+h1{
+  font-family: 'Special Elite', fantasy;
+  background-color: lime;
+  color: cyan;
+}
+
+#score{
+    font-size: 25px;
+    margin-left: 5px;
+    float: left;
+}
+
+#Timer{
+    float: right;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+p{
+    font-size: 25px;
+    color: black;
+}
+
+#Sketch_drawn{
+    color: cornflowerblue;
+}
